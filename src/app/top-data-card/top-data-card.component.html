@@ -1,0 +1,30 @@
+<div class="main_div">
+    <!-- <div *ngFor="let item of topCards , index as i" [ngClass]="i==0? 'flex_div_withBg':'flex_div'">
+        <div [ngClass]="i==0? 'percentage_div_index whitebg':'percentage_div'">
+            <h2>
+                {{slicedNumbers[i]}}
+            </h2>
+            <img src="assets/ui_icons/pie-graph.png" alt="">
+        </div>
+        <h3 [ngClass]="i==0? 'heading_index whitebg':'heading'">
+            {{item.header}}
+        </h3>
+        <p [ngClass]="i==0? 'content_index whitebg':'content'">{{item.sub_header}}</p>
+    </div> -->
+
+    <div class="grid-container">
+        <div class="grid-item" *ngFor="let item of topCards , index as i"
+            [ngClass]="i==0? 'flex_div_withBg':'flex_div'">
+            <div [ngClass]="i==0? 'percentage_div whitebg':'percentage_div'">
+                <h2>
+                    {{slicedNumbers[i]}}
+                </h2>
+                <img src="assets/ui_icons/pie-graph.png" alt="">
+            </div>
+            <h3 [ngClass]="i==0? 'heading whitebg':'heading'">
+                {{item.header}}
+            </h3>
+            <p [ngClass]="i==0? 'content whitebg':'content'">{{item.sub_header}}</p>
+        </div>
+    </div>
+</div>

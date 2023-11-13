@@ -1,0 +1,31 @@
+.top_navigation {
+    display: var(--display-flex);
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    flex-grow: 1;
+    width: 1000px;
+    margin: 0px 20px
+}
+
+.right_float img {
+    width: 20px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.right_float {
+    display: var(--display-flex);
+    right: 5px;
+    position: sticky;
+}
+
+::placeholder {
+    color: #dedbe0
+}
+

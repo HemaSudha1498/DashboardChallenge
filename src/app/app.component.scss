@@ -1,0 +1,103 @@
+body {
+    margin: 0 !important;
+    padding: 0;
+    width: 1920px;
+    height: 1080px;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: small;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.bodyDiv {
+    display: var(--display-flex);
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: small;
+    color: #6b6d7c;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    font-family: "Poppins", sans-serif !important;
+    font-size: small;
+    position: fixed;
+    background-color: var(--white-color);
+}
+
+.menuToggle #imgToggle {
+    width: 40px;
+}
+
+.imgToggle_div {
+    width: 40px;
+    justify-content: center;
+    display: flex;
+    background: #506de2;
+}
+
+.menuToggle {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    margin: 10px;
+}
+
+.left_navigation {
+    width: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background: var(--white-color);
+    height: 100%;
+}
+
+.content {
+    margin: 50px;
+}
+
+.content_div {
+    padding: 10px;
+    background-color: #f4f7fc;
+}
+
+.recent_orders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.orders {
+    width: 70%;
+    background-color: var(--white-color);
+    margin: 0px 18px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.registrations {
+    width: 30%;
+    background-color: var(--white-color);
+    margin-right: 18px;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    width: 8px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

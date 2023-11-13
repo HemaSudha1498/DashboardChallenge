@@ -1,0 +1,24 @@
+<div class="main_div">
+    <h4 class="borderBottom">New User Registrations</h4>
+    <div class="details fullWidth">
+        <div class="dataItem fullWidth">
+            <table class="fullWidth">
+                <tr *ngFor="let item of new_users,index as i">
+                    <td><img [src]="item.picture" alt="User_profile"></td>
+                    <td>
+                        <div>
+                            <h5>{{item.name}}</h5>
+                            <span>{{item.country}}</span>
+                        </div>
+                    </td>
+                    <td><progress [value]="item.progress" max="100"> {{item.progress}} </progress></td>
+                    <td><span> {{item.progress}}%</span></td>
+                    <td>
+                        <button [ngClass]="i==currentIndex? 'bluebg whiteFont button': 'button' "
+                            (click)="changeIndex(i)">more</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

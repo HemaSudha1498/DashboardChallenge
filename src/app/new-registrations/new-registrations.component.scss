@@ -1,0 +1,64 @@
+.bluebg {
+    background-color: #4d6be1
+}
+
+.whiteFont {
+    color: var(--white-color)
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+.button {
+    border-radius: 3px;
+    height: 30px;
+    border: none;
+}
+
+.main_div {
+    overflow: auto;
+    margin: 10px 20px;
+}
+
+.details {
+    display: var(--display-flex);
+    max-height: 300px;
+    overflow: auto;
+    justify-content: space-around;
+}
+
+tr {
+    height: 60px;
+}
+
+td {
+    text-align: left;
+    border-bottom: 1px solid #eeeeee;
+}
+
+tr td h5{
+    margin: 0;
+    font-size: 14px;
+}
+
+tr td div span{
+    font-size: x-small;
+}
+
+.dataItem img {
+    border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    width: 8px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

@@ -1,0 +1,11 @@
+.mainDiv {
+    display: var(--display-flex);
+    flex-direction: var(--flex-column);
+    margin-top: 10px;
+}
+
+.mainDiv img {
+    width: 16px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
